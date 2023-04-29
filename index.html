@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Point & Click</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <script src="./script.js"></script>
+  <div class="container">
+    <div class="background">
+      <img src="./images/bg.gif" class="bgGif"/>
+    </div>
+    <div class="foreground">
+        <center><img src="./images/START_BUTTON.png" class="star" onmouseover="func()" id="startBtn"></center>
+        <!--add an image that onclick uses the function playBGM-->
+        <div class="musicOn">
+          <img src="./images/flip.png" class="musicOn" onclick="playBGM()">
+        </div>
+    </div>
+</body>
+
+</html>
