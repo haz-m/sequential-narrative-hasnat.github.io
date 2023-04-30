@@ -104,6 +104,8 @@ button:hover {
   position: absolute;
   top: 0;
   right: 0;
+  /* make it smaller */
+  transform: scale(0.8);
 }
 
 p {
