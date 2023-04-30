@@ -1,0 +1,16 @@
+body {
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+.background {
+  display: grid;
+  height: 100%;
+}
+
+.sceneImage {
+  max-width: 100%;
+  max-height: 100vh;
+  margin: auto;
+}

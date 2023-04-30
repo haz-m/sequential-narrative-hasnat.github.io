@@ -10,15 +10,19 @@
   <script src="script.js"></script>
   <div class="container">
     <div class="background">
-      <img src="./Images/bg.gif" class="bgGif"/>
+      <img src="./Images/bg.gif" class="bgGif" />
     </div>
     <div class="foreground">
-        <center><img src="./Images/START_BUTTON.png" class="star" onmouseover="func()" id="startBtn"></center>
-        <!--add an image that onclick uses the function playBGM-->
-        <div class="musicOn">
-          <img src="./Images/music_button.png" class="musicOn" onclick="playBGM()">
-        </div>
+      <center><img src="./Images/START_BUTTON.png" class="star" onmouseover="func()" onclick="startGame()"
+          id="startBtn"></center>
+      <!--add an image that onclick uses the function playBGM-->
+      <div class="musicOn">
+        <img src="./Images/music_button.png" class="musicOn" onclick="playBGM()">
+      </div>
     </div>
+    <footer>
+      <p> Created by: Hasnat Mumtaz with help from Izzet Samil Döne </p>
+    </footer>
 </body>
 
 </html>

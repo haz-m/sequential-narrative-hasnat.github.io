@@ -15,3 +15,7 @@ function playBGM() {
     bgm.currentTime = 0;
   }
 }
+
+function startGame() {
+  window.location.href = "/game/game.html";
+}
