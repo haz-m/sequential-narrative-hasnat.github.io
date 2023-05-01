@@ -17,5 +17,5 @@ function playBGM() {
 }
 
 function startGame() {
-  window.location.href = "/game/game.html";
+  window.location.href = "game/game.html";
 }
