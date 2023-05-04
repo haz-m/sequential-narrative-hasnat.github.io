@@ -54,7 +54,7 @@ p {
 }
 
 .star:hover {
-  transform: scale(2.5);
+  transform: scale(2.0);
   transition: transform 0.5s;
 }
 
